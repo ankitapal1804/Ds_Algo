@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-typedef long long int ll;
-void insertion_sort(ll a[],ll n){
+void insertion_sort(int a[],int n){
 	for(int i=1;i<n;i++){
 		int t=i-1,e=a[i];
 		while(t>=0 && a[t]>e){
@@ -12,9 +11,9 @@ void insertion_sort(ll a[],ll n){
 	}
 }
 int main() {
-	ll n;
+	int n;
 	cin>>n;
-	ll a[n];
+	int a[n];
 	for(int i=0;i<n;i++){
           cin>>a[i];
 	}
